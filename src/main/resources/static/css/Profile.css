@@ -1,0 +1,660 @@
+* {
+    font-family: "Inter Tight", sans-serif;
+
+}
+
+main>div {
+    margin-top: 150px;
+}
+
+img {
+    width: 100%;
+    max-width: 100%;
+
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    text-decoration: none;
+    color: black;
+}
+
+.top-nav-container {
+    display: block;
+    position: relative;
+    height: 60px;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+.top-nav-container, .sidebar, hr, body {
+    background-color: #FFFFF9;
+}
+
+
+.logo-white {
+    display: block;
+    width: 270px;
+    height: 40px;
+    position: absolute;
+    top: 15px;
+    left: 600px;
+    box-sizing: border-box;
+}
+
+/******sidebar************/
+
+.profile-container {
+    margin-top: 0px;
+}
+
+.sidebar {
+    background-color: white;
+    padding: 20px;
+    /* height: 100%; */
+}
+
+.sidebar ul {
+    list-style: none;
+    padding: 0;
+}
+
+.sidebar ul li {
+    border: 1px solid #555;
+    background-color: #FFFFF9;
+    padding: 10px;
+    height: auto;
+    width: 400px;
+    /* border-radius: 100px; */
+}
+
+.sidebar ul li a {
+    text-decoration: none;
+    color: #555;
+    font-size: 1em;
+    display: block;
+    padding: 8px;
+    transition: color 0.3s ease;
+}
+
+.sidebar ul li a:hover {
+    color: #FFCC33;
+}
+
+#poster-container {
+    margin-top: 0px;
+}
+
+#poster-container img {
+    width: 350px;
+    height: 250px;
+    margin-left: 45px;
+    border-radius: 10px 10px 10px;
+}
+
+#poster-container img:hover {
+    transform: scale(1.05);
+}
+
+.hidden {
+    display: none;
+}
+
+/******profile************/
+.main-content {
+    padding: 30px;
+}
+
+.profile {
+    margin-bottom: 30px;
+}
+
+.profile {
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: white;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+th {
+    width: 200px;
+}
+
+.detail {
+    width: 550px;
+}
+
+.profile {
+    margin-left: 20px;
+}
+
+.profile h3 {
+    font-size: 2em;
+    font-weight: bold;
+    color: #444;
+    margin-bottom: 15px;
+}
+
+.detail-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+    padding: 10px 0;
+    border-bottom: 1px solid #ddd;
+}
+
+.detail-item label {
+    font-weight: bold;
+    color: #333;
+}
+
+.detail-item input {
+    width: 550px;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 14px;
+}
+
+button {
+    background-color: #FFCC33;
+    padding: 5px 10px;
+    border-radius: 50px;
+    border: white;
+    text-align: center;
+    transition-duration: 0.2s;
+}
+
+button:hover {
+    transform: scale(0.9);
+    text-decoration: none;
+    color: white;
+    background-color: #0e1824;
+}
+
+.profile #update-button {
+    background-color: #FFCC33;
+    margin-left: 300px;
+    margin-top: 20px;
+    width: 200px;
+    height: 50px;
+    border-radius: 50px;
+    border: white;
+    text-align: center;
+    transition-duration: 0.2s;
+}
+
+.profile #update-button:hover {
+    transform: scale(0.9);
+    text-decoration: none;
+    color: white;
+    background-color: #0e1824;
+}
+
+.profile #edit-button {
+    background-color: #FFCC33;
+    margin-left: 300px;
+    margin-top: 20px;
+    width: 200px;
+    height: 50px;
+    border-radius: 50px;
+    border: white;
+    text-align: center;
+    transition-duration: 0.2s;
+}
+
+.profile #edit-button:hover {
+    transform: scale(0.9);
+    text-decoration: none;
+    color: white;
+    background-color: #0e1824;
+}
+
+/******mybooking************/
+
+.booking-detail {
+    margin-bottom: 30px;
+}
+
+.booking-detail {
+    margin-left: 20px;
+}
+
+.booking-detail h3 {
+    font-size: 2em;
+    font-weight: bold;
+    color: #444;
+    margin-bottom: 15px;
+}
+
+.booking-detail img {
+    width: 20px;
+    height: 20px;
+}
+
+.booking-detail {
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: white;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.booking-card {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    padding: 15px 20px;
+    margin-bottom: 15px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+.booking-info {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.booking-id {
+    font-size: 14px;
+    color: #555;
+}
+
+.booking-name {
+    font-family: "Cormorant Garamond", serif;
+    font-size: 20px;
+    color: #333;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+
+.status {
+    display: inline-block;
+    width: 100px;
+    padding: 5px 10px;
+    text-align: center;
+    border-radius: 12px;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.status.success {
+    background-color: #e6f8ed;
+    color: #28a745;
+}
+
+.status.cancel {
+    background-color: #fde8e8;
+    color: #e63946;
+}
+
+.status.PENDING {
+    background-color: #fff4e5;
+    color: #ff8800;
+}
+.status.CONFIRMED {
+    background-color: #e6f8ed;
+    color: #28a745;
+}
+
+.status.REJECTED {
+    background-color: #fde8e8;
+    color: #e63946;
+}
+.status.CANCELED {
+    background-color: #fde8e8;
+    color: #e63946;
+}
+
+.status.pending {
+    background-color: #fff4e5;
+    color: #ff8800;
+}
+
+.booking-details {
+    text-align: right;
+}
+
+.price {
+    font-size: 30px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 5px;
+}
+
+.details-link {
+    color: #DF935B;
+    text-decoration: none;
+    font-size: 14px;
+    margin-right: 10px;
+}
+
+.request {
+    color: black;
+    text-decoration: underline;
+    font-size: 14px;
+    position: relative;
+    top: 10px;
+    margin-right: 10px;
+}
+
+.request:hover {
+    text-decoration: underline;
+    color: red;
+}
+/******purchasehistory************/
+
+.purchase-history {
+    margin-bottom: 30px;
+}
+
+.purchase-history {
+    margin-left: 20px;
+}
+
+.purchase-history h3 {
+    font-size: 2em;
+    font-weight: bold;
+    color: #444;
+    margin-bottom: 15px;
+}
+
+.purchase-history img {
+    width: 20px;
+    height: 20px;
+}
+
+.purchase-history {
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: white;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.purchase-history h2 {
+    font-size: 18px;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.purchase-card {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    padding: 15px 20px;
+    margin-bottom: 15px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+.purchase-info {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.purchase-id {
+    font-size: 14px;
+    color: #555;
+}
+
+.purchase-name {
+    font-family: "Cormorant Garamond", serif;
+    font-size: 20px;
+    color: #333;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+
+.status {
+    display: inline-block;
+    width: 100px;
+    padding: 5px 10px;
+    text-align: center;
+    border-radius: 12px;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.status.success {
+    background-color: #e6f8ed;
+    color: #28a745;
+}
+
+.status.cancel {
+    background-color: #fde8e8;
+    color: #e63946;
+}
+
+.purchase-details {
+    text-align: right;
+}
+
+.price {
+    font-size: 30px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 5px;
+}
+
+.details-link {
+    color: #DF935B;
+    text-decoration: none;
+    font-size: 14px;
+    margin-right: 10px;
+}
+
+/******changepassword************/
+
+.change-password {
+    margin-bottom: 30px;
+}
+
+.change-password {
+    margin-left: 20px;
+}
+
+.change-password h3 {
+    font-size: 2em;
+    font-weight: bold;
+    color: #444;
+    margin-bottom: 15px;
+}
+
+.change-password {
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: white;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.change-password input {
+    width: 50%;
+}
+
+.change-password tr {
+    margin-bottom: 20px;
+}
+
+
+.change-password #update-password-button {
+    background-color: #FFCC33;
+    margin-left: 300px;
+    margin-top: 20px;
+    width: 200px;
+    height: 50px;
+    border-radius: 50px;
+    border: white;
+    text-align: center;
+    transition-duration: 0.2s;
+}
+
+.change-password #update-password-button:hover {
+    transform: scale(0.9);
+    text-decoration: none;
+    color: white;
+    background-color: #0e1824;
+}
+
+
+.password-wrapper {
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.password-wrapper input {
+    flex: 1;
+    padding-right: 40px;
+}
+
+.password-wrapper .toggle-password {
+    position: absolute;
+    right: 10px;
+    cursor: pointer;
+    font-size: 18px;
+    color: #666;
+}
+
+.password-wrapper .toggle-password:hover {
+    color: #333;
+}
+
+/* popup logout */
+.popup {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+}
+
+.hidden {
+    display: none;
+}
+
+.popup-content {
+    background: #fff;
+    padding: 20px 30px;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.popup-actions {
+    margin-top: 15px;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.popup-actions .btn {
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+.popup-actions #confirm-logout {
+    background-color: #FFCC33;
+}
+
+/*footer*/
+.footer {
+    display: block;
+    margin-top: 150px;
+    background-color: #0e1824;
+    color: white;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 100px;
+    padding-bottom: 30px;
+}
+
+.footer h4 {
+    display: block;
+    padding-bottom: 20px;
+}
+
+.footer a {
+    color: white;
+    text-decoration: none;
+}
+
+.logo-footer {
+    display: block;
+    width: 320px;
+    overflow: hidden;
+    margin-bottom: 20px;
+}
+
+.email {
+    padding-right: 55px;
+}
+
+.form-subscribe input {
+    width: 90%;
+    padding: 13px 12px;
+    color: #ffffff;
+    background-color: #192431;
+    border-radius: 200px;
+    border: 1px solid #6f6f6f4a;
+    margin-top: 20px;
+}
+
+.subscribe-btn {
+    width: 100%;
+    border-radius: 200px;
+    background-color: #FFCC33;
+    padding: 13px 12px;
+    margin-top: 20px;
+    transition-duration: 0.2s;
+}
+
+.subscribe-btn:hover {
+    transform: scale(0.9);
+    background-color: #ffffff;
+}
+
+.copyright {
+    display: block;
+    position: relative;
+    padding-top: 50px;
+    border-top: 0.5px solid #ffffff4d;
+    width: 100%;
+    margin-top: 70px;
+}
+
+.copyright .overlay {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+
+/*end footer*/

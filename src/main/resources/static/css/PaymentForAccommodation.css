@@ -1,0 +1,197 @@
+* {
+    font-family: "Inter Tight", sans-serif;
+
+}
+
+main>div {
+    margin-top: 150px;
+}
+
+img {
+    width: 100%;
+    max-width: 100%;
+
+}
+
+.info {
+    max-width: 1400px;
+    margin: 0 auto;
+    background-color: white;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    text-decoration: none;
+    color: black;
+}
+
+.top-nav-container {
+    display: block;
+    position: relative;
+    height: 60px;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+.top-nav-container ,hr, body, main {
+    background-color: #FFFFF9;
+}
+
+.booking-steps {
+    background-color: #FFFFF9 !important;
+}
+
+.logo-white {
+    display: block;
+    width: 270px;
+    height: 40px;
+    position: absolute;
+    top: 15px;
+    left: 600px;
+    box-sizing: border-box;
+}
+
+.booking-steps {
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+}
+
+.booking-steps .step {
+    padding: 10px 20px;
+    margin: 0 5px;
+    border: 1px solid #ddd;
+    border-radius: 20px;
+    background: #f8f8f8;
+    color: #888;
+}
+
+.booking-steps .step.active {
+    background: #333;
+    color: #fff;
+    font-weight: 500;
+}
+/*body*/
+h3 {
+    font-weight: 700;
+}
+
+.card {
+    border: none;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.card-body {
+    text-align: center;
+    background-color: #fff;
+    padding: 20px;
+}
+
+.btn-custom {
+    background-color: #333;
+    background: #CDB38B;
+    color: black;
+    border: none;
+    font-weight: 600;
+    margin-top: 50px;
+}
+
+.btn-custom:hover {
+    background: #333;
+    color: #fff;
+}
+
+h3 {
+    text-align: center;
+}
+
+#info-title {
+    font-family: "Cormorant Garamond", serif;
+    font-style: italic;
+    color: #CDB38B;
+    font-size: 15px;
+}
+
+/*footer*/
+.footer {
+    display: block;
+    margin-top: 150px;
+    background-color: #0e1824;
+    color: white;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 100px;
+    padding-bottom: 30px;
+}
+
+.footer h4 {
+    display: block;
+    padding-bottom: 20px;
+}
+
+.footer a {
+    color: white;
+    text-decoration: none;
+}
+
+.logo-footer {
+    display: block;
+    width: 320px;
+    overflow: hidden;
+    margin-bottom: 20px;
+}
+
+.email {
+    padding-right: 55px;
+}
+
+.form-subscribe input {
+    width: 90%;
+    padding: 13px 12px;
+    color: #ffffff;
+    background-color: #192431;
+    border-radius: 200px;
+    border: 1px solid #6f6f6f4a;
+    margin-top: 20px;
+}
+
+.subscribe-btn {
+    width: 100%;
+    border-radius: 200px;
+    background-color: #FFCC33;
+    padding: 13px 12px;
+    margin-top: 20px;
+    transition-duration: 0.2s;
+}
+
+.subscribe-btn:hover {
+    transform: scale(0.9);
+    background-color: #ffffff;
+}
+
+.copyright {
+    display: block;
+    position: relative;
+    padding-top: 50px;
+    border-top: 0.5px solid #ffffff4d;
+    width: 100%;
+    margin-top: 70px;
+}
+
+.copyright .overlay {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+/*end footer*/

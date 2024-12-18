@@ -1,0 +1,397 @@
+* {
+    font-family: "Inter Tight", sans-serif;
+
+}
+
+main>div {
+    margin-top: 150px;
+}
+
+img {
+    width: 100%;
+    max-width: 100%;
+
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    text-decoration: none;
+    color: black;
+}
+
+.top-nav-container {
+    display: block;
+    position: relative;
+    height: 60px;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+.top-nav-container ,hr, body {
+    background-color: #FFFFF9;
+}
+
+
+.logo-white {
+    display: block;
+    width: 270px;
+    height: 40px;
+    position: absolute;
+    top: 15px;
+    left: 600px;
+    box-sizing: border-box;
+}
+
+.booking-steps {
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+}
+
+.booking-steps .step {
+    padding: 10px 20px;
+    margin: 0 5px;
+    border: 1px solid #ddd;
+    border-radius: 20px;
+    background: #f8f8f8;
+    color: #888;
+}
+
+.booking-steps .step.active {
+    background: #333;
+    color: #fff;
+    font-weight: 500;
+}
+
+/*.stay-info {*/
+/*    margin: 20px auto;*/
+/*    text-align: center;*/
+/*    max-width: 620px;*/
+/*    background: #fff;*/
+/*    padding-right: 20px;*/
+/*    padding-left: 20px;*/
+/*    padding-top: 10px;*/
+/*    padding-bottom: 10px;*/
+/*    border-radius: 8px;*/
+/*    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);*/
+/*}*/
+
+
+#reverse-form {
+    position: relative;
+    bottom: 100px;
+    left: 250px;
+    display: block;
+    padding: 30px;
+    background: linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)),
+    url('../images/horizon.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 200px;
+    box-sizing: border-box;
+}
+
+#reverse-form input,
+#reverse-form select {
+    width: 25%;
+    padding: 15px;
+    border: 1px solid black;
+    border-radius: 200px;
+    background-color: #f6f7fa00;
+    color: black;
+    box-sizing: border-box;
+    margin-right: 1%;
+}
+
+#reverse-form select option {
+    color: black;
+}
+
+input::placeholder {
+    color: black;
+    opacity: 1;
+}
+
+.orange-button {
+    border: 1px solid black;
+    background-color: #CDB38B;
+    padding: 12px 30px;
+    border-radius: 200px;
+    border: white;
+    text-align: center;
+    transition-duration: 0.2s;
+}
+
+.orange-button:hover {
+    transform: scale(0.9);
+    text-decoration: none;
+    color: white;
+    background-color: #0e1824;
+}
+
+
+.top-book-now-btn {
+    display: inline-block;
+    width: 18%;
+    box-sizing: border-box;
+}
+
+
+.include-info {
+    text-align: center;
+    margin-top: 0px;
+}
+
+#info-title {
+    font-family: "Cormorant Garamond", serif;
+    font-style: italic;
+    color: #CDB38B;
+    font-size: 15px;
+}
+
+.room-selection {
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 20px;
+}
+
+.room-card {
+    display: flex;
+    height: 400px;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    margin-bottom: 40px;
+    overflow: hidden;
+}
+
+.room-card img {
+    width: 40%;
+    height: 400px;
+    object-fit: cover;
+}
+
+.room-card .amenities-icon {
+    width: 20px;
+    height: 20px;
+}
+
+.room-card .price-detail {
+    position: relative;
+    left: 450px;
+    bottom: 20px;
+}
+
+.room-card ul {
+    color: #828282;
+}
+
+.room-details {
+    padding: 20px;
+    width: 60%;
+}
+
+.room-details h3 {
+    font-size: 1.4rem;
+    margin-bottom: 10px;
+}
+
+.room-details ul {
+    margin: 10px 0;
+    list-style: none;
+    padding-left: 0;
+}
+
+.room-details ul li {
+    margin-bottom: 5px;
+}
+
+.price {
+    margin-top: 10px;
+    right: 10px;
+    position: relative;
+    font-size: 1.2rem;
+    color: #333;
+}
+
+.btn {
+    position: relative;
+    right: 150px;
+    bottom: 10px;
+    background: #CDB38B;
+    border: 0.5px solid #CDB38B;
+    padding: 10px 20px;
+    border-radius: 50px;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: background 0.3s;
+}
+
+.view-btn {
+    font-family: "Cormorant Garamond", serif;
+    font-style: italic;
+    position: relative;
+    right: 580px;
+    bottom: 10px;
+    background: #FFFFF9;
+    border: 0.5px solid black;
+    padding: 10px 20px;
+    border-radius: 50px;
+    cursor: pointer;
+    font-size: 0.5rem;
+}
+
+.select-btn {
+    background: transparent;
+    border: 0.5px solid #CDB38B;
+    position: relative;
+    right: 150px;
+    bottom: 10px;
+    padding: 10px 20px;
+    border-radius: 50px;
+    font-size: 1rem;
+    transition: background 0.3s;
+}
+
+
+.btn:hover {
+    background: #333;
+    color: #fff;
+}
+
+
+
+.mf-input {
+    background: white;
+    border: 0.5px solid black;
+    width: 40px;
+}
+
+.amount {
+    position: fixed;
+    top: 600px;
+    right: 15px;
+    width: 200px;
+    background: #f8f9fa;
+    padding: 10px;
+    border: 1px solid #ccc;
+    text-align: center;
+    border-radius: 50px;
+}
+
+.amount-btn {
+    position: relative;
+    right: 0px;
+    /*bottom: 10px;*/
+    background: #CDB38B;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    font-size: 0.8rem;
+    transition: background 0.3s;
+}
+
+.amount-btn:hover {
+    background: #333;
+    color: #fff;
+}
+
+.filter-container {
+    margin-bottom: 20px;
+    font-size: 16px;
+    margin-left: 950px;
+}
+
+.filter-container select{
+    background: none;
+}
+
+#price-filter {
+    padding: 5px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+}
+
+/*footer*/
+.footer {
+    display: block;
+    margin-top: 150px;
+    background-color: #0e1824;
+    color: white;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 100px;
+    padding-bottom: 30px;
+}
+
+.footer h4 {
+    display: block;
+    padding-bottom: 20px;
+}
+
+.footer a {
+    color: white;
+    text-decoration: none;
+}
+
+.logo-footer {
+    display: block;
+    width: 320px;
+    overflow: hidden;
+    margin-bottom: 20px;
+}
+
+.email {
+    padding-right: 55px;
+}
+
+.form-subscribe input {
+    width: 90%;
+    padding: 13px 12px;
+    color: #ffffff;
+    background-color: #192431;
+    border-radius: 200px;
+    border: 1px solid #6f6f6f4a;
+    margin-top: 20px;
+}
+
+.subscribe-btn {
+    width: 100%;
+    border-radius: 200px;
+    background-color: #FFCC33;
+    padding: 13px 12px;
+    margin-top: 20px;
+    transition-duration: 0.2s;
+}
+
+.subscribe-btn:hover {
+    transform: scale(0.9);
+    background-color: #ffffff;
+}
+
+.copyright {
+    display: block;
+    position: relative;
+    padding-top: 50px;
+    border-top: 0.5px solid #ffffff4d;
+    width: 100%;
+    margin-top: 70px;
+}
+
+.copyright .overlay {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+
+/*end footer*/

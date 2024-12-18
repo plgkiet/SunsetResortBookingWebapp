@@ -1,0 +1,486 @@
+* {
+    font-family: "Inter Tight", sans-serif;
+
+}
+
+main>div {
+    margin-top: 150px;
+}
+
+img {
+    width: 100%;
+    max-width: 100%;
+
+}
+
+.info {
+    max-width: 1400px;
+    margin: 0 auto;
+    background-color: white;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    text-decoration: none;
+    color: black;
+}
+
+.top-nav-container {
+    display: block;
+    position: relative;
+    height: 60px;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+.top-nav-container ,hr, body, main {
+    background-color: #FFFFF9;
+}
+
+.booking-steps {
+    background-color: #FFFFF9 !important;
+}
+
+.logo-white {
+    display: block;
+    width: 270px;
+    height: 40px;
+    position: absolute;
+    top: 15px;
+    left: 600px;
+    box-sizing: border-box;
+}
+
+.booking-steps {
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+}
+
+.booking-steps .step {
+    padding: 10px 20px;
+    margin: 0 5px;
+    border: 1px solid #ddd;
+    border-radius: 20px;
+    background: #f8f8f8;
+    color: #888;
+}
+
+.booking-steps .step.active {
+    background: #333;
+    color: #fff;
+    font-weight: 500;
+}
+
+.stay-info {
+    margin: 20px auto;
+    text-align: center;
+    max-width: 620px;
+    background: #fff;
+    padding-right: 20px;
+    padding-left: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.stay-info p {
+    margin-bottom: 10px;
+}
+
+.stay-info ul {
+    margin-left: 20px;
+    list-style: disc;
+}
+
+.stay-info a:hover {
+    color: #CDB38B;
+}
+
+.hotel-name {
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.stars {
+    font-size: 1.2rem;
+}
+
+.main-img {
+    height: 450px;
+    object-fit: cover;
+}
+
+.price-box .price {
+    font-size: 1.1rem;
+    margin-bottom: 0;
+}
+
+.review-box .rating {
+    font-size: 1.3rem;
+    color: #198754;
+}
+
+
+
+#main-image {
+    width: 400px;
+    height: 200px
+}
+
+.normal-img {
+    width: 133.333333px;
+    height: 110px;
+}
+
+img:hover {
+    opacity: 90%;
+}
+
+.container {
+    margin-top: 50px;
+}
+
+#price {
+    font-weight: bold;
+    color: black;
+    position: relative;
+    bottom: 20px;
+}
+
+.btn {
+    display: inline;
+    position: relative;
+    top: 5px;
+    width: 150px;
+    background: #CDB38B;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: background 0.3s;
+}
+
+.btn:hover {
+    background: #333;
+    color: #fff;
+    transform: scale(0.9);
+}
+
+#ht-name {
+    margin-left: 45px;
+}
+
+.hotel-name {
+    position: relative;
+    bottom: 10px;
+    font-family: "Cormorant Garamond", serif;
+    font-style: italic;
+    color: black;
+    font-size: 40px;
+}
+
+.badge {
+    position: relative;
+    bottom: 20px;
+    background-color: #CDB38B;
+    color: white;
+    border-radius: 20px;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container .detail{
+    display: grid;
+    grid-template-rows: repeat(2, auto);
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+    max-width: 1400px;
+    margin: 10px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.container .detail h3 {
+    font-family: "Cormorant Garamond", serif;
+    color: black;
+    font-weight: bold;
+}
+
+.review-box h4 {
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+
+.review-box {
+    grid-row: span 2;
+    grid-column: 1 / 2;
+    background-color: #ffffff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.location-box {
+    grid-column: 2 / 3;
+    grid-row: 1 / 2;
+    background-color: #ffffff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Amenities box */
+.amenities-box {
+    grid-column: 3 / 4;
+    grid-row: 1 / 2;
+    background-color: #ffffff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.description-box {
+    grid-column: 2 / 4;
+    grid-row: 2 / 3;
+    background-color: #ffffff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.map-link,
+.more-link {
+    color: #007bff;
+    text-decoration: none;
+    font-size: 14px;
+    margin-top: 10px;
+    display: inline-block;
+}
+
+.map-link:hover,
+.more-link:hover {
+    text-decoration: underline;
+}
+
+.customer-reviews p,
+.description-box p {
+    font-size: 14px;
+    line-height: 1.5;
+}
+
+.amenities-box .amenities-icon {
+    width: 20px;
+    height: 20px;
+}
+
+.location-box .amenities-icon {
+    width: 20px;
+    height: 20px;
+}
+
+.location-box li {
+    margin-bottom: 10px;
+}
+
+.amenities-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.amenities-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.amenities-list li {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.facility-icons {
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.facility-icons #score {
+    background-color: #CDB38B;
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+    color: white;
+    padding: 2px;
+}
+
+.facility-icons #count {
+    color: grey;
+}
+
+.stars i {
+    padding-top: 5px;
+    color: #f0ad4e;
+}
+
+#info-title {
+    font-family: "Cormorant Garamond", serif;
+    font-style: italic;
+    color: #CDB38B;
+    font-size: 15px;
+}
+
+.customer-reviews p {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+}
+.customer-reviews p:hover {
+    transform: scale(1.05);
+    transition: 0.3s;
+}
+
+.img-fluid {
+    cursor: pointer;
+}
+
+/* Style cho modal */
+.image-popup {
+    display: none; /* Ẩn modal ban đầu */
+    position: fixed;
+    z-index: 1000;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0.8);
+    justify-content: center;
+    align-items: center;
+}
+
+/* Nội dung ảnh trong modal */
+.popup-content {
+    max-width: 90%;
+    max-height: 90%;
+    margin: auto;
+    display: block;
+    border-radius: 5px;
+}
+
+/* Nút đóng modal */
+.close-popup {
+    position: absolute;
+    top: 20px;
+    right: 30px;
+    color: #fff;
+    font-size: 40px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+#location-map {
+    text-decoration: none;
+}
+
+#location-map:hover {
+    color: #CDB38B;
+}
+
+/*footer*/
+.footer {
+    display: block;
+    margin-top: 150px;
+    background-color: #0e1824;
+    color: white;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 100px;
+    padding-bottom: 30px;
+}
+
+.footer h4 {
+    display: block;
+    padding-bottom: 20px;
+}
+
+.footer a {
+    color: white;
+    text-decoration: none;
+}
+
+.logo-footer {
+    display: block;
+    width: 320px;
+    overflow: hidden;
+    margin-bottom: 20px;
+}
+
+.email {
+    padding-right: 55px;
+}
+
+.form-subscribe input {
+    width: 90%;
+    padding: 13px 12px;
+    color: #ffffff;
+    background-color: #192431;
+    border-radius: 200px;
+    border: 1px solid #6f6f6f4a;
+    margin-top: 20px;
+}
+
+.subscribe-btn {
+    width: 100%;
+    border-radius: 200px;
+    background-color: #FFCC33;
+    padding: 13px 12px;
+    margin-top: 20px;
+    transition-duration: 0.2s;
+}
+
+.subscribe-btn:hover {
+    transform: scale(0.9);
+    background-color: #ffffff;
+}
+
+.copyright {
+    display: block;
+    position: relative;
+    padding-top: 50px;
+    border-top: 0.5px solid #ffffff4d;
+    width: 100%;
+    margin-top: 70px;
+}
+
+.copyright .overlay {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+/*end footer*/

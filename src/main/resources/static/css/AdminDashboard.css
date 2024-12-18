@@ -1,0 +1,243 @@
+* {
+    font-family: "Inter Tight", sans-serif;
+
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    text-decoration: none;
+    color: black;
+}
+
+main {
+    padding: 0;
+}
+
+.top-nav-container {
+    display: block;
+    position: relative;
+    height: 80px;
+    box-sizing: border-box;
+    overflow: hidden;
+    border-bottom: 0.5px solid black;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.1); /* Example box-shadow */
+}
+
+.top-nav-container ,hr, body, main {
+    background-color: #FFFFF9;
+}
+
+
+.logo-white {
+    display: block;
+    top: 20px;
+    width: 270px;
+    height: 40px;
+    position: absolute;
+    left: 500px;
+    box-sizing: border-box;
+}
+/*main*/
+.container-fluid {
+    padding: 0px;
+}
+
+#avt {
+    margin-bottom: 20px;
+}
+.sidebar {
+    text-align: center;
+    background-color: #192431;
+    color: white;
+    padding: 20px;
+    height: 700px;
+}
+
+.sidebar h4 {
+    margin-bottom :40px;
+}
+
+.col-md-10 {
+    padding: 0px;
+}
+
+.btn {
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.btn:hover {
+    color: #CD853F;
+}
+
+.dashboard {
+    background-color: white;
+}
+
+.section-content {
+    padding: 20px;
+}
+
+.container {
+    margin-left: 200px;
+}
+
+.section-content {
+    display: none;
+}
+
+.section-content.active {
+    display: block;
+}
+
+input.form-control {
+    width: 150px;
+    /* Giảm width của input */
+}
+
+.popup {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+}
+
+.hidden {
+    display: none;
+}
+
+.popup-content {
+    background: #fff;
+    padding: 20px 30px;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.popup-actions {
+    margin-top: 15px;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.popup-actions .btn {
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+.popup-actions #confirm-logout {
+    background-color: #FFCC33;
+}
+
+
+/*footer*/
+.footer {
+    display: block;
+    /*margin-top: 150px;*/
+    background-color: #0e1824;
+    color: white;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 100px;
+    padding-bottom: 30px;
+}
+
+.footer h4 {
+    display: block;
+    padding-bottom: 20px;
+}
+
+.footer a {
+    color: white;
+    text-decoration: none;
+}
+
+.logo-footer {
+    display: block;
+    width: 320px;
+    overflow: hidden;
+    margin-bottom: 20px;
+}
+
+.email {
+    padding-right: 55px;
+}
+
+.form-subscribe input {
+    width: 90%;
+    padding: 13px 12px;
+    color: #ffffff;
+    background-color: #192431;
+    border-radius: 200px;
+    border: 1px solid #6f6f6f4a;
+    margin-top: 20px;
+}
+
+.subscribe-btn {
+    width: 100%;
+    border-radius: 200px;
+    background-color: #FFCC33;
+    padding: 13px 12px;
+    margin-top: 20px;
+    transition-duration: 0.2s;
+}
+
+.subscribe-btn:hover {
+    transform: scale(0.9);
+    background-color: #ffffff;
+}
+
+.copyright {
+    display: block;
+    position: relative;
+    padding-top: 50px;
+    border-top: 0.5px solid #ffffff4d;
+    width: 100%;
+    margin-top: 70px;
+}
+
+.copyright .overlay {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+
+.accommodation-row-id:hover{
+    background-color:#555555;
+    cursor: pointer;
+}
+/*end footer*/
+
+.status.PENDING {
+    background-color: #fff4e5;
+    color: #ff8800;
+}
+.status.CONFIRMED {
+    background-color: #e6f8ed;
+    color: #28a745;
+}
+
+.status.REJECTED {
+    background-color: #fde8e8;
+    color: #e63946;
+}
+.status.CANCELED {
+    background-color: #fde8e8;
+    color: #e63946;
+}

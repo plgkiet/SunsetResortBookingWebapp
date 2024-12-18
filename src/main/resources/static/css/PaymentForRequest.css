@@ -1,0 +1,209 @@
+* {
+    font-family: "Inter Tight", sans-serif;
+
+}
+
+img {
+    width: 100%;
+    max-width: 100%;
+
+}
+
+.top-nav-container {
+    display: block;
+    position: relative;
+    height: 60px;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+.top-nav-container{
+    background-color: #FFFFF9;
+}
+
+.logo-white {
+    display: block;
+    width: 270px;
+    height: 40px;
+    position: absolute;
+    top: 15px;
+    left: 600px;
+    box-sizing: border-box;
+}
+/*main*/
+main {
+    font-family: Arial, sans-serif;
+}
+
+.form-label {
+    font-family: "Cormorant Garamond", serif;
+    font-style: italic;
+    color: white;
+}
+
+.form-select {
+    background-color: white;
+}
+
+.form-select:focus {
+    border-color: #ffc107;
+    box-shadow: 0 0 5px #ffc107;
+}
+
+.booking-form-container {
+    padding-top: 20px;
+    margin-top: 10px;
+}
+
+.booking-form {
+    background: rgba(0, 0, 0, 0.5);
+    padding: 40px;
+    border-radius: 8px;
+    color: white;
+    max-width: 600px;
+    margin: 100px auto;
+}
+
+.booking-form h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    transition: background 0.3s;
+    cursor: pointer;
+}
+
+.btn-custom {
+    margin-top: 20px;
+    background-color: #ffc107;
+    color: black;
+    border: none;
+}
+
+.btn-custom:hover {
+    background: #333;
+    color: #fff;
+}
+
+
+/*popup payment */
+
+.hidden {
+    display: none;
+}
+._failed{ border-bottom: solid 4px red !important; }
+._failed i{  color:red !important;  }
+
+._success {
+    background-color: white;
+    box-shadow: 0 15px 25px #00000019;
+    padding: 45px;
+    width: 100%;
+    text-align: center;
+    margin: 40px auto;
+    margin-top: 200px;
+    border-bottom: solid 4px #28a745;
+}
+
+._success i {
+    font-size: 55px;
+    color: #28a745;
+}
+
+._success h2 {
+    margin-bottom: 12px;
+    font-size: 40px;
+    font-weight: 500;
+    line-height: 1.2;
+    margin-top: 10px;
+}
+
+._success p {
+    margin-bottom: 0px;
+    font-size: 18px;
+    color: #495057;
+    font-weight: 500;
+}
+
+.btn-navigate {
+    margin-top: 20px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+}
+
+.btn-navigate:hover {
+    background: #333;
+    color: #fff;
+}
+
+/*footer*/
+.footer {
+    display: block;
+    /*margin-top: 150px;*/
+    background-color: #0e1824;
+    color: white;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 100px;
+    padding-bottom: 30px;
+}
+
+.footer h4 {
+    display: block;
+    padding-bottom: 20px;
+}
+
+.footer a {
+    color: white;
+    text-decoration: none;
+}
+
+.logo-footer {
+    display: block;
+    width: 320px;
+    overflow: hidden;
+    margin-bottom: 20px;
+}
+
+.email {
+    padding-right: 55px;
+}
+
+.form-subscribe input {
+    width: 90%;
+    padding: 13px 12px;
+    color: #ffffff;
+    background-color: #192431;
+    border-radius: 200px;
+    border: 1px solid #6f6f6f4a;
+    margin-top: 20px;
+}
+
+.subscribe-btn {
+    width: 100%;
+    border-radius: 200px;
+    background-color: #FFCC33;
+    padding: 13px 12px;
+    margin-top: 20px;
+    transition-duration: 0.2s;
+}
+
+.subscribe-btn:hover {
+    transform: scale(0.9);
+    background-color: #ffffff;
+}
+
+.copyright {
+    display: block;
+    position: relative;
+    padding-top: 50px;
+    border-top: 0.5px solid #ffffff4d;
+    width: 100%;
+    margin-top: 70px;
+}
+
+.copyright .overlay {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+/*end footer*/

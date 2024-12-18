@@ -1,0 +1,194 @@
+<!doctype html>
+<html xmlns:th="http://www.thymeleaf.org" lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter+Tight:ital,wght@0,100..900;1,100..900&display=swap"
+          rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.0/css/all.min.css"
+          integrity="sha512-10/jx2EXwxxWqCLX/hHth/vu2KY3jCF70dCQB8TSgNjbCVAC/8vai53GfMDrO2Emgwccf2pJqxct9ehpzG+MTw=="
+          crossorigin="anonymous" referrerpolicy="no-referrer"/>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Requestable Service Payment</title>
+    <link rel="stylesheet" href="/css/PaymentForRequest.css?v=3.0" type="text/css">
+</head>
+
+<body>
+<header>
+    <nav>
+        <div class="top-nav-container">
+            <a href="/homepage"><img class="logo-white" src="/images/darklogongang.png" alt="logo"></a>
+        </div>
+    </nav>
+</header>
+
+<main style="background: url('/images/request-service/background/roomcleanin.png')  no-repeat fixed center; width: auto; height: 800px;">
+    <div class="container booking-form-container">
+        <div class="booking-form">
+            <h2>REQUEST SERVICE PAYMENT</h2>
+            <h5>Total Price: <span>$5</span></h5>
+            <p></p>
+            <hr>
+            <form>
+                <h5>Payment Information <img src="/images/logo-visa-mastercard.png"
+                                             style="height: 20px; width: auto; margin-left: 5px;"></h5>
+                <div class="mb-3">
+                    <input type="text" class="form-control" placeholder="Full Name on Card" required>
+                </div>
+                <div class="mb-3">
+                    <input type="text" class="form-control" placeholder="Card Number" required>
+                </div>
+                <div class="row mb-3">
+                    <div class="col-md-6">
+                        <input type="text" class="form-control" placeholder="MM/YY (Expiration Date)" required>
+                    </div>
+                    <div class="col-md-6">
+                        <input type="text" class="form-control" placeholder="CVV" required>
+                    </div>
+                </div>
+                <div class="mb-3">
+                    <input type="text" class="form-control" placeholder="Billing Address" required>
+                </div>
+                <button type="submit" class="btn btn-custom w-100">Pay Now</button>
+            </form>
+        </div>
+    </div>
+    <div class="container hidden">
+        <div class="row justify-content-center">
+            <div class="col-md-5">
+                <div class="message-box _success">
+                    <i class="fa fa-check-circle" aria-hidden="true"></i>
+                    <h2> Your payment was successful </h2>
+                    <p> Thank you for your payment.<br> We will
+                        be in contact with more details shortly </p>
+                    <button class="btn btn-navigate w-100" onclick="window.location.href='/homepage';">Go To Hompage <i class="fa fa-arrow-circle-o-right" aria-hidden="true" style="font-size: 16px;"></i></button>
+                </div>
+            </div>
+        </div>
+<!--        <hr>-->
+<!--        <div class="row justify-content-center">-->
+<!--            <div class="col-md-5">-->
+<!--                <div class="message-box _success _failed">-->
+<!--                    <i class="fa fa-times-circle" aria-hidden="true"></i>-->
+<!--                    <h2> Your payment failed </h2>-->
+<!--                    <p> Try again later </p>-->
+<!--                </div>-->
+<!--            </div>-->
+<!--        </div>-->
+    </div>
+</main>
+<footer>
+    <div class="footer">
+        <div class="container-customer">
+            <div class="row">
+                <div class="col-lg-4 col-sm-12">
+                    <div class="email">
+                        <div class="row">
+                            <div class="col-lg-12 col-sm-12">
+                                <div class="logo-footer">
+                                    <img src="/images/whitelogo.png" style="height: 50px; width: 320px;" alt="logo">
+                                </div>
+                                <p>
+                                    Welcome to Sunset Villas, where luxury meets tranquility in the most
+                                    breathtaking
+                                    locations
+                                    around
+                                    the
+                                    world.
+                                </p>
+                            </div>
+                        </div>
+
+                        <form class="form-subscribe">
+                            <div class="row no-gutters">
+                                <div class="col-lg-7 col-sm-12">
+                                    <input type="email" required placeholder="Your Email Address">
+                                </div>
+                                <div class="col-lg-5 col-sm-12">
+                                    <button class="subscribe-btn" type="submit"><i
+                                            class="fa-solid fa-envelope-open-text"></i>
+                                        Subscribe
+                                    </button>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+
+                </div>
+
+                <div class="col-lg-2 col-sm-12">
+                    <div class="footer-content">
+                        <h4>Quick Menu</h4>
+                        <p><a href="#">Home</a></p>
+                        <p><a href="#">About</a></p>
+                        <p><a href="#">Our Accommodation</a></p>
+                        <p><a href="#">Blog</a></p>
+                        <p><a href="#">Contact Us</a></p>
+                    </div>
+                </div>
+
+                <div class="col-lg-2 col-sm-12">
+                    <div class="footer-content">
+                        <h4>Support</h4>
+                        <p><a href="#">FAQ</a></p>
+                        <p><a href="#">Privacy & Cookies</a></p>
+                        <p><a href="#">Legal</a></p>
+                        <p><a href="#">Accessibility</a></p>
+                        <p><a href="#">Sitemap</a></p>
+                    </div>
+                </div>
+
+                <div class="col-lg-2 col-sm-12">
+                    <div class="footer-content">
+                        <h4>Contact Info</h4>
+                        <p><a href="#">Address: Phu Loc, Lang Co, Da Nang, Viet Nam</a></p>
+                        <p><a href="#">Phone: 0983.301.103</a></p>
+                        <p><a href="#">Email: sunsetresort@support.com</a></p>
+                    </div>
+                </div>
+
+                <div class="col-lg-2 col-sm-12">
+                    <div class="footer-content">
+                        <h4>Social Media</h4>
+                        <ul>
+                            <li>
+                                <p><a href="#">Facebook</a></p>
+                            </li>
+                            <li>
+                                <p><a href="#">Instagram</a></p>
+                            </li>
+                            <li>
+                                <p><a href="#">Twitter</a></p>
+                            </li>
+                            <li>
+                                <p><a href="#">Youtube</a></p>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="copyright">
+                    <p>Copyright © 2024 All rights reserved.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.min.js" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct"
+        crossorigin="anonymous"></script>
+<link rel="stylesheet" href="https://code.jquery.com/ui/1.14.0/themes/base/jquery-ui.css">
+<script src="https://code.jquery.com/ui/1.14.0/jquery-ui.js"></script>
+<script type="text/javascript" src="/js/index.js"></script>
+<script type="text/javascript" src="/js/request-service.js"></script>
+</body>
+
+</html>
